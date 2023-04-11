@@ -27,7 +27,7 @@
 ### Get logs
 - kubectl logs comments-depl-5b9696f8f4-m4ksc
 
-### ingress/nginx will help avoid manual docker build push and deployment
+### Auto deployment (avoid manual actions) - ingress/nginx will help avoid manual docker build, push and k8s deployment
 
 - https://kubernetes.github.io/ingress-nginx/deploy/
 - kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.7.0/deploy/static/provider/cloud/deploy.yaml
